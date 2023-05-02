@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "name": "weekmath",
+  "version": "0.0.0",
+  "description": "compute weekNumber and daysIntoWeek",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx standard && NODE_OPTIONS=--experimental-vm-modules npx jest --coverage",
+    "jest": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhawke/weekmath.git"
+  },
+  "keywords": [
+    "sandhawke"
+  ],
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/weekmath/issues"
+  },
+  "homepage": "https://github.com/sandhawke/weekmath#readme",
+  "dependencies": {
+    "debug": "^4.3.1"
+  },
+  "devDependencies": {
+  }
+}
